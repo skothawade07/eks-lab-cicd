@@ -4,7 +4,7 @@ metadata:
   name: eks-lab-app
   namespace: cicd-demo
 spec:
-  replicas: 2
+  replicas: 1
   progressDeadlineSeconds: 600
   selector:
     matchLabels:
